@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: blue;
+  color: white;
+}
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 91px;
+  padding: 8px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Luxurious Roman", cursive;
+}
+nav ul li a:hover {
+  font-weight: bolder;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 30vw;
+  height: 27px;
+  border-radius: 2px;
+  margin: 0 12px 0 56px;
+  padding: 0 12px;
+}
+.search button {
+  font-family: "Luxurious Roman", cursive;
+  font-weight: 900;
+}
+.btnn {
+  padding: 5px 10px;
+  color: white;
+  background-color: var(--main-bg-color);
+  border: 2px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.center-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heading {
+  width: 100%;
+  line-height: 80px;
+  font-size: 1.4rem;
+  background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+  font-family: "Staatliches", cursive;
+}
+form {
+  width: 400px;
+}
